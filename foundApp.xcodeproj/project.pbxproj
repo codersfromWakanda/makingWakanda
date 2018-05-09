@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		116D7095E0F3B66C3F344DC5 /* Pods_foundAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582513F533307EDA00CE260F /* Pods_foundAppTests.framework */; };
-		2F24C7BE20A2AB8E00BFBB5C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F24C7BD20A2AB8E00BFBB5C /* GradientView.swift */; };
 		2F38AD7F20A226060050C4D8 /* SignUp1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F38AD7E20A226060050C4D8 /* SignUp1ViewController.swift */; };
+		2FDD86EB20A3857100DC7838 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDD86EA20A3857100DC7838 /* GradientView.swift */; };
 		3FC3B01F5E970AE91912931B /* Pods_foundApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E0865E9B90B158DCEF3B79 /* Pods_foundApp.framework */; };
 		ADB13FE96BEEF4092B9FC3CA /* Pods_foundAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABBABC8D2FB02507CBB0744 /* Pods_foundAppUITests.framework */; };
 		DC01756E209B8C8F006DF6E4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC01756D209B8C8F006DF6E4 /* ProfileViewController.swift */; };
@@ -18,7 +18,6 @@
 		DCE9DD6720853FEE0001E997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9DD6620853FEE0001E997 /* AppDelegate.swift */; };
 		DCE9DD6920853FEE0001E997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9DD6820853FEE0001E997 /* ViewController.swift */; };
 		DCE9DD6C20853FEE0001E997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE9DD6A20853FEE0001E997 /* Main.storyboard */; };
-		DCE9DD6E20853FEE0001E997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE9DD6D20853FEE0001E997 /* Assets.xcassets */; };
 		DCE9DD7120853FEE0001E997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE9DD6F20853FEE0001E997 /* LaunchScreen.storyboard */; };
 		DCE9DD7C20853FEF0001E997 /* foundAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9DD7B20853FEF0001E997 /* foundAppTests.swift */; };
 		DCE9DD8720853FEF0001E997 /* foundAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE9DD8620853FEF0001E997 /* foundAppUITests.swift */; };
@@ -45,8 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2F24C7BD20A2AB8E00BFBB5C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = ../../found/foundApp/GradientView.swift; sourceTree = "<group>"; };
 		2F38AD7E20A226060050C4D8 /* SignUp1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp1ViewController.swift; sourceTree = "<group>"; };
+		2FDD86EA20A3857100DC7838 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		32E0865E9B90B158DCEF3B79 /* Pods_foundApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_foundApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BBEC0ABE41EFEB426AED72 /* Pods-foundAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foundAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foundAppUITests/Pods-foundAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		56B15AD23473B95B07941053 /* Pods-foundApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-foundApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-foundApp/Pods-foundApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,7 +61,6 @@
 		DCE9DD6620853FEE0001E997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE9DD6820853FEE0001E997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCE9DD6B20853FEE0001E997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DCE9DD6D20853FEE0001E997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE9DD7020853FEE0001E997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCE9DD7220853FEE0001E997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE9DD7720853FEE0001E997 /* foundAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foundAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -157,7 +155,6 @@
 				DCE9DD6820853FEE0001E997 /* ViewController.swift */,
 				DCE9DD6A20853FEE0001E997 /* Main.storyboard */,
 				DC017A3D208E701E000F3474 /* postCell.swift */,
-				DCE9DD6D20853FEE0001E997 /* Assets.xcassets */,
 				DCE9DD6F20853FEE0001E997 /* LaunchScreen.storyboard */,
 				DCE9DD7220853FEE0001E997 /* Info.plist */,
 				DCE9DD96208542670001E997 /* logInViewController.swift */,
@@ -166,7 +163,7 @@
 				DCFEBFFE209842C6008F8105 /* LocationViewController.swift */,
 				DC01756D209B8C8F006DF6E4 /* ProfileViewController.swift */,
 				2F38AD7E20A226060050C4D8 /* SignUp1ViewController.swift */,
-				2F24C7BD20A2AB8E00BFBB5C /* GradientView.swift */,
+				2FDD86EA20A3857100DC7838 /* GradientView.swift */,
 			);
 			path = foundApp;
 			sourceTree = "<group>";
@@ -301,7 +298,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE9DD7120853FEE0001E997 /* LaunchScreen.storyboard in Resources */,
-				DCE9DD6E20853FEE0001E997 /* Assets.xcassets in Resources */,
 				DCE9DD6C20853FEE0001E997 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +402,7 @@
 			files = (
 				DCFEBFFF209842C6008F8105 /* LocationViewController.swift in Sources */,
 				DCE9DD97208542670001E997 /* logInViewController.swift in Sources */,
-				2F24C7BE20A2AB8E00BFBB5C /* GradientView.swift in Sources */,
+				2FDD86EB20A3857100DC7838 /* GradientView.swift in Sources */,
 				DCFEBFFD2098298A008F8105 /* photoViewController.swift in Sources */,
 				2F38AD7F20A226060050C4D8 /* SignUp1ViewController.swift in Sources */,
 				DCE9DD6920853FEE0001E997 /* ViewController.swift in Sources */,
